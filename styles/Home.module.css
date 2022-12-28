@@ -1,9 +1,10 @@
 .container {
   padding: 0 2rem;
+  height: 100vh;
+  background: #1B1B1E;
 }
 
 .main {
-  min-height: 100vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -16,7 +17,7 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 2px solid #eaeaea;
   justify-content: center;
   align-items: center;
 }
@@ -116,13 +117,16 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   .card,
   .footer {
     border-color: #222;
   }
+
   .code {
     background: #111;
   }
+
   .logo img {
     filter: invert(1);
   }
